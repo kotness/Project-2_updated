@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    background-image: url(fabric_plaid.png);
+    font-family: 'Museo', serif;
+  }
+  
+  @font-face {
+    font-family: 'Museo';
+    src: url("assets/fonts/museo/museo-300-webfont.eot");
+    src: 
+    url("assets/museo/museo-300-webfont.woff") format("woff"),
+    url("assets/museo/museo-300-webfont.ttf") format("truetype"),
+    url("assets/museo/museo-300-webfont.svg#filename") format("svg");
+    }
+  
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+      }
+      
+      .nav {
+        display: flex;
+        background-image: url(fabric_plaid.png);
+        flex-wrap: wrap;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .social {
+          display:flex;
+          flex-wrap: wrap;
+          width: 300px;
+          flex-direction: column;
+          justify-content: flex-end;
+      }
+      
+      .navlinks {
+          display: flex;
+          justify-content: flex-end;
+          padding:15px;
+      }
+      
+      .icons {
+        display:flex;
+        justify-content: flex-end;
+        margin:2%;
+      }
+
+      .socialmedia{
+        height:20px;
+        justify-content: flex-end;
+        float: right;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 80px;
+        padding-right: 60px;
+        width: 500px;
+        align-items: center;
+      }
+      
+  .whole {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .halfs {
+    display: flex;
+    width: 33%;
+    margin: 2%;
+  }
+  
+  .smaller {
+    width: 100%
+  }
+  
+  
+  .mini3img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+  }
+
+  .portfoliosection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+.text {
+    text-align: right;
+}
+  .portfolio {
+    width: 20%;
+    margin: 2%;
+  }
+
+  .portfolioimg {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .footerbanner {
+    text-align: center;
+    background-image: url(az_subtle.png);
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 8px 0px;
+    
+  }
+  
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url(az_subtle.png);
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footersections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 25%;
+    margin: 2%;
+    background-image: url(az_subtle.png);
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footer8{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .footer8img {
+    width: 100%;
+    margin: 2%;
+    height: 100%;
+    }
+  
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 300px;
+      align-items: center;
+    }
+  
+  .search {
+    font-size: 1.5em;
+    text-align: left;
+    height: 15px;
+    width: 450px;
+    padding-top: 5px;
+    padding-left: 25px;
+    background-color: solid white;
+  }
+  
+  .width {
+    width: 500px;
+  }
+  
+  .greybackground {
+    background-image: url('az_subtle.png');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footernavbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 210px;
+    align-items: center;
+  }
+  
+  .footerspace {
+    margin: 8px 8px;
+  }
+  .navcenter {
+    text-align: center;
+    margin: 20px;
+    color: gray;
+  }
+  .whitetext{
+  color:white;
+  }
+  .bottom12 {
+    width: 20%;
+    margin: 2%;
+}
